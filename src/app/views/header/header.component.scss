@@ -1,0 +1,21 @@
+.appIcon{
+    cursor: pointer;
+    .app-logo{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.mid-space{
+    flex: 1 1 auto;
+}
+.user{
+    font-size: 0.8em;
+    padding-right: 10px;
+}
+.logout{
+    cursor: pointer;
+    outline: none;
+    padding-top: 5px;
+}

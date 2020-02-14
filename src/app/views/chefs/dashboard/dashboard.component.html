@@ -1,0 +1,12 @@
+<div class="dashboard-wrapper">
+  <app-header></app-header>
+  <ng-container *ngIf="isIndian; else Bakery"
+    ><app-indian-chef></app-indian-chef
+  ></ng-container>
+  <ng-template #Bakery>
+    <ng-container *ngIf="isBakery; else Italian"
+      ><app-bakery-chef></app-bakery-chef
+    ></ng-container>
+  </ng-template>
+  <ng-template #Italian><app-italian-chef></app-italian-chef></ng-template>
+</div>

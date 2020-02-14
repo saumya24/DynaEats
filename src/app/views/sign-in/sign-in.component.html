@@ -1,0 +1,65 @@
+<div class="wrapper">
+  <div class="login-wrapper">
+    <mat-card class="login-card">
+      <mat-card-header>
+        <mat-card-title>
+            <div class="app-logo">
+                <img src="../../../assets/images/logo.png" alt="logo">
+            </div>
+        </mat-card-title>   
+      </mat-card-header>
+      <mat-card-content>
+        <div class="login-form">
+          <div>
+            <mat-form-field class="login-full-width">
+              <input
+                matInput
+                placeholder="Username"
+                [(ngModel)]="username"
+                name="username"
+                required
+              />
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field class="login-full-width">
+              <input
+                matInput
+                placeholder="Password"
+                [(ngModel)]="password"
+                type="password"
+                name="password"
+                required
+              />
+            </mat-form-field>
+          </div>
+          <div *ngIf="user === '2'">
+            <mat-form-field class="login-full-width">
+              <mat-label>Select Role</mat-label>
+              <mat-select [(value)]="chefType">
+                <mat-option value="1">Indian</mat-option>
+                <mat-option value="2">Bakery</mat-option>
+                <mat-option value="3">Italian</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-radio-group [(ngModel)]="user" aria-label="Select an option">
+              <mat-radio-button value="1">Manager</mat-radio-button>
+              <mat-radio-button value="2">Chef</mat-radio-button>
+            </mat-radio-group>
+          </div>
+        </div>
+        <!-- <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner> -->
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button class="full-width" (click)="login()" color="primary">
+          Login
+        </button>
+      </mat-card-actions>
+      <div class="login-fail" *ngIf="isWrongUser">
+          <p>Login Failed! Username and Password not recognised.</p>
+      </div>
+    </mat-card>
+  </div>
+</div>

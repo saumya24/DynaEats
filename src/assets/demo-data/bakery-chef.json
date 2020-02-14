@@ -1,0 +1,55 @@
+[
+    {
+      "responseStatus": 200,
+      "responseStatusText": "OK",
+      "responseBody": {
+        "foods": [
+           
+            {
+                "name":"Fats",
+                "items":[
+                      {
+                        "name": "Butter",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Olive",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Add-ons",
+                "items":[
+                
+                      {
+                        "name": "Sugar",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Salt",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Olives",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Vanilla",
+                        "quantity":20
+  
+                      }
+                  ]
+            }
+        ]
+        },
+        "statusCode": 200,
+        "message": "OK"
+      }
+  ]
+  

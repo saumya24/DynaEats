@@ -1,0 +1,65 @@
+[
+    {
+      "responseStatus": 200,
+      "responseStatusText": "OK",
+      "responseBody": {
+        "foods": [
+            {
+                "name":"Flour",
+                "items":[
+                    {
+                      "name": "Wheat",
+                      "quantity":20
+
+                    },
+                    {
+                        "name": "Rice",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Fats",
+                "items":[
+                      {
+                        "name": "Mustard",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Vegetables",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Vegatables",
+                "items":[
+                    
+                      {
+                        "name": "Onions",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Add-ons",
+                "items":[
+                
+                      {
+                        "name": "Sugar",
+                        "quantity":20
+  
+                      }
+                  ]
+            }
+        ]
+        },
+        "statusCode": 200,
+        "message": "OK"
+      }
+  ]
+  

@@ -1,0 +1,41 @@
+.dashboard-wrapper{
+    background: url("../../../../assets/images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .dashboard-card{
+        width: 90%;
+        margin: auto ;
+        margin-top: 20px;
+        .manager-actions{
+            
+            float: right;
+            button{
+                margin-right: 10px;
+            }
+        }
+        .manager-table{
+            margin: auto ;
+            table-layout: fixed;
+            width: 100%;
+            th{
+                padding: 10px;
+            }
+            .food-data{
+                display: contents;
+                p{
+                    font-weight: bold;
+                }
+                tr{
+                    line-height: 30px;
+                    td{
+                        text-align: center;
+                        .quantity{
+                            width: 35px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

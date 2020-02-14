@@ -1,0 +1,85 @@
+[
+    {
+      "responseStatus": 200,
+      "responseStatusText": "OK",
+      "responseBody": {
+        "foods": [
+            {
+                "name":"Flour",
+                "items":[
+                    {
+                      "name": "Wheat",
+                      "quantity":20
+
+                    },
+                    {
+                        "name": "Rice",
+                        "quantity":20
+  
+                    },
+                    {
+                        "name": "Multigrain",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Fats",
+                "items":[
+                      {
+                        "name": "Butter",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Olives",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Vegatables",
+                "items":[
+                    
+                      {
+                        "name": "Mushrooms",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Baby Corn",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Onions",
+                        "quantity":20
+  
+                      },
+                      {
+                        "name": "Capsicum",
+                        "quantity":20
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Add-ons",
+                "items":[
+                
+                      {
+                        "name": "Salt",
+                        "quantity":20
+  
+                      }
+                  ]
+            }
+        ]
+        },
+        "statusCode": 200,
+        "message": "OK"
+      }
+  ]
+  

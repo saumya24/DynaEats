@@ -1,0 +1,213 @@
+[
+    {
+      "responseStatus": 200,
+      "responseStatusText": "OK",
+      "responseBody": {
+        "foods": [
+            {
+                "name":"Flour",
+                "items":[
+                    {
+                      "name": "Wheat",
+                      "req_qty":20,
+                      "vendor1":10,
+                      "vendor2":10,
+                      "received_qty":20,
+                      "status":"OK",
+                      "Bakery": "Y",
+                      "Italian":"Y",
+                      "Indian":"Y"
+
+                    },
+                    {
+                        "name": "Rice",
+                        "req_qty":20,
+                        "vendor1":0,
+                        "vendor2":20,
+                        "received_qty":20,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"Y"
+  
+                      },
+                      {
+                        "name": "Multigrain",
+                        "req_qty":5,
+                        "vendor1":0,
+                        "vendor2":1,
+                        "received_qty":1,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Fats",
+                "items":[
+                    {
+                        "name": "Butter",
+                        "req_qty":5,
+                        "vendor1":2,
+                        "vendor2":1,
+                        "received_qty":3,
+                        "status":"Insufficient",
+                        "Bakery": "Y",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Olive",
+                        "req_qty":3,
+                        "vendor1":3,
+                        "vendor2":0,
+                        "received_qty":3,
+                        "status":"Insufficient",
+                        "Bakery": "Y",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Mustard",
+                        "req_qty":8,
+                        "vendor1":0,
+                        "vendor2":6,
+                        "received_qty":6,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"N",
+                        "Indian":"Y"
+  
+                      },
+                      {
+                        "name": "Vegetables",
+                        "req_qty":8,
+                        "vendor1":0,
+                        "vendor2":6,
+                        "received_qty":6,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"N",
+                        "Indian":"Y"
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Vegatables",
+                "items":[
+                    {
+                        "name": "Mushrooms",
+                        "req_qty":5,
+                        "vendor1":2,
+                        "vendor2":3,
+                        "received_qty":5,
+                        "status":"OK",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Baby Corn",
+                        "req_qty":5,
+                        "vendor1":3,
+                        "vendor2":2,
+                        "received_qty":5,
+                        "status":"OK",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Onions",
+                        "req_qty":15,
+                        "vendor1":12,
+                        "vendor2":0,
+                        "received_qty":12,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"Y"
+  
+                      },
+                      {
+                        "name": "Capsicum",
+                        "req_qty":5,
+                        "vendor1":2,
+                        "vendor2":1,
+                        "received_qty":3,
+                        "status":"Insufficient",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      }
+                  ]
+            },
+            {
+                "name":"Add-ons",
+                "items":[
+                    {
+                        "name": "Salt",
+                        "req_qty":5,
+                        "vendor1":2,
+                        "vendor2":3,
+                        "received_qty":5,
+                        "status":"OK",
+                        "Bakery": "N",
+                        "Italian":"Y",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Olives",
+                        "req_qty":5,
+                        "vendor1":3,
+                        "vendor2":2,
+                        "received_qty":5,
+                        "status":"OK",
+                        "Bakery": "Y",
+                        "Italian":"N",
+                        "Indian":"N"
+  
+                      },
+                      {
+                        "name": "Sugar",
+                        "req_qty":15,
+                        "vendor1":12,
+                        "vendor2":0,
+                        "received_qty":12,
+                        "status":"Insufficient",
+                        "Bakery": "Y",
+                        "Italian":"N",
+                        "Indian":"Y"
+  
+                      },
+                      {
+                        "name": "Vanilla",
+                        "req_qty":5,
+                        "vendor1":2,
+                        "vendor2":1,
+                        "received_qty":3,
+                        "status":"Insufficient",
+                        "Bakery": "Y",
+                        "Italian":"N",
+                        "Indian":"N"
+  
+                      }
+                  ]
+            }
+        ]
+        },
+        "statusCode": 200,
+        "message": "OK"
+      }
+  ]
+  

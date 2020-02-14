@@ -1,0 +1,38 @@
+.wrapper {
+  .login-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: 50%;
+    .login-card {
+      .app-logo {
+        width: 50%;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+      }
+      .login-form {
+        .login-full-width {
+          width: 100%;
+        }
+        .mat-radio-button {
+          padding-right: 20px;
+        }
+      }
+      .full-width {
+        width: 100%;
+      }
+      .login-fail {
+        font-size: 13px;
+        font-weight: 600;
+        color: red;
+        text-align: center;
+        word-spacing: 3px;
+      }
+    }
+  }
+}

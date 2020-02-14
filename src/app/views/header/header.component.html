@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span class="appIcon" routerLink="/sign-in">
+    <div class="app-logo">
+    <img src="../../../assets/images/logo.png" alt="logo">
+</div></span>
+  <span class="mid-space"></span>
+  <span class="user">Welcome! {{ username }}</span>
+  <span class="logout">
+      <mat-icon routerLink="/sign-in" 
+      aria-hidden="false"   
+      aria-label="Example home icon"
+      matTooltip="Logout">power_settings_new</mat-icon>
+    </span>
+</mat-toolbar
+>

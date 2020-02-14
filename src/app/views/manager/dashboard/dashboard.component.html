@@ -1,0 +1,61 @@
+<div class="dashboard-wrapper">
+<app-header></app-header>
+  <mat-card class="dashboard-card">
+    <div class="manager-actions">
+      <button mat-button 
+              mat-raised-button 
+              color="primary"
+              (click)="Edit()">Edit</button>
+      <button mat-button 
+              mat-raised-button 
+              color="primary"
+              (click)="Save()">Save</button>
+    </div>
+    <table class="manager-table">
+      <thead>
+        <tr class="columns">
+          <th *ngFor="let col of ManagerColumns">{{col.name}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <div class="food-data" *ngFor="let foods of ManageData">
+          <p>{{ foods.name }}</p>
+          <tr *ngFor="let food of foods.items">
+            <td>{{ food.name }}</td>
+            <td>{{ food.req_qty }}</td>
+            <td>
+              <mat-form-field class="quantity">
+                <input matInput 
+                [(value)]="food.vendor1" 
+                name="vendor1"
+                [disabled]="!isEditQuantity" />
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field class="quantity">
+                <input matInput 
+                [(value)]="food.vendor2"
+                 name="vendor2"
+                 [disabled]="!isEditQuantity" />
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field class="quantity">
+                <input
+                  matInput
+                  [(value)]="food.received_qty"
+                  name="received_qty"
+                  [disabled]="!isEditQuantity"
+                />
+              </mat-form-field>
+            </td>
+            <td>{{ food.status }}</td>
+            <td>{{ food.Bakery }}</td>
+            <td>{{ food.Italian }}</td>
+            <td>{{ food.Indian }}</td>
+          </tr>
+        </div>
+      </tbody>
+    </table>
+  </mat-card>
+</div>
