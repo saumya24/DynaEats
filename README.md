@@ -1,6 +1,13 @@
 # DynaEats
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+Implemented modular approach and implemented lazy loading in the project. 
+For security implementation AuthGuard in project.
+For UI enhancement used Angular Material. 
+Local Json files have been used to show data
+
+# Run
+Run `npm-install` to install required packages.
 
 ## Development server
 
@@ -14,9 +21,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
